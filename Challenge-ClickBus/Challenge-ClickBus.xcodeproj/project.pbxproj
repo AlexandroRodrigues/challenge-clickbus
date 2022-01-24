@@ -21,6 +21,8 @@
 		3CB0BFE7279E4051004695E2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFE6279E4051004695E2 /* Constant.swift */; };
 		3CB0BFE9279E4166004695E2 /* DiscoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFE8279E4166004695E2 /* DiscoverModel.swift */; };
 		3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */; };
+		3CB0BFEE279E456C004695E2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFED279E456C004695E2 /* ListViewController.swift */; };
+		3CB0BFF1279E45CA004695E2 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFF0279E45CA004695E2 /* ListController.swift */; };
 		496B4DD4A70A11BC872FADAC /* Pods_Challenge_ClickBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE91155B91F3BA0F9FDA64CE /* Pods_Challenge_ClickBus.framework */; };
 		532B9AD2A52DF1FF7BBBC12A /* Pods_Challenge_ClickBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEB922A74621254ED1735E /* Pods_Challenge_ClickBusTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		3CB0BFE6279E4051004695E2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3CB0BFE8279E4166004695E2 /* DiscoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModel.swift; sourceTree = "<group>"; };
 		3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovie.swift; sourceTree = "<group>"; };
+		3CB0BFED279E456C004695E2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3CB0BFF0279E45CA004695E2 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		5C3BE24C5F426EB17066EFC4 /* Pods-Challenge-ClickBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus.release.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus.release.xcconfig"; sourceTree = "<group>"; };
 		5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AB3AE9451F97D1F072E8B7 /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 			children = (
 				3CB0BFEA279E4192004695E2 /* Model */,
 				3CB0BFE5279E401D004695E2 /* Request */,
+				3CB0BFF2279E45DA004695E2 /* Controller */,
+				3CB0BFEF279E458F004695E2 /* View */,
 				3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */,
 				3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */,
 				3CB0BFB5279E3F10004695E2 /* ViewController.swift */,
@@ -183,6 +189,22 @@
 				3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3CB0BFEF279E458F004695E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFED279E456C004695E2 /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CB0BFF2279E45DA004695E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFF0279E45CA004695E2 /* ListController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		647F067DEBBD5D6E23FC5636 /* Frameworks */ = {
@@ -436,10 +458,12 @@
 			files = (
 				3CB0BFE9279E4166004695E2 /* DiscoverModel.swift in Sources */,
 				3CB0BFB6279E3F10004695E2 /* ViewController.swift in Sources */,
+				3CB0BFF1279E45CA004695E2 /* ListController.swift in Sources */,
 				3CB0BFB2279E3F10004695E2 /* AppDelegate.swift in Sources */,
 				3CB0BFE7279E4051004695E2 /* Constant.swift in Sources */,
 				3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */,
 				3CB0BFE4279E3F7D004695E2 /* RequestMovie.swift in Sources */,
+				3CB0BFEE279E456C004695E2 /* ListViewController.swift in Sources */,
 				3CB0BFB4279E3F10004695E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
