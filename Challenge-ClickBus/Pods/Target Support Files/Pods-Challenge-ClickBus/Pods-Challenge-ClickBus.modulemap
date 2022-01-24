@@ -1,0 +1,6 @@
+framework module Pods_Challenge_ClickBus {
+  umbrella header "Pods-Challenge-ClickBus-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8FD6602262DA59CD33B0D5 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */; };
+		3CB0BFB2279E3F10004695E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */; };
+		3CB0BFB4279E3F10004695E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */; };
+		3CB0BFB6279E3F10004695E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB5279E3F10004695E2 /* ViewController.swift */; };
+		3CB0BFB9279E3F10004695E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB7279E3F10004695E2 /* Main.storyboard */; };
+		3CB0BFBB279E3F1B004695E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */; };
+		3CB0BFBE279E3F1B004695E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFBC279E3F1B004695E2 /* LaunchScreen.storyboard */; };
+		3CB0BFC9279E3F1C004695E2 /* Challenge_ClickBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFC8279E3F1C004695E2 /* Challenge_ClickBusTests.swift */; };
+		3CB0BFD3279E3F1C004695E2 /* Challenge_ClickBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFD2279E3F1C004695E2 /* Challenge_ClickBusUITests.swift */; };
+		3CB0BFD5279E3F1C004695E2 /* Challenge_ClickBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFD4279E3F1C004695E2 /* Challenge_ClickBusUITestsLaunchTests.swift */; };
+		3CB0BFE4279E3F7D004695E2 /* RequestMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFE3279E3F7D004695E2 /* RequestMovie.swift */; };
+		3CB0BFE7279E4051004695E2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFE6279E4051004695E2 /* Constant.swift */; };
+		3CB0BFE9279E4166004695E2 /* DiscoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFE8279E4166004695E2 /* DiscoverModel.swift */; };
+		3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */; };
+		496B4DD4A70A11BC872FADAC /* Pods_Challenge_ClickBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE91155B91F3BA0F9FDA64CE /* Pods_Challenge_ClickBus.framework */; };
+		532B9AD2A52DF1FF7BBBC12A /* Pods_Challenge_ClickBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEB922A74621254ED1735E /* Pods_Challenge_ClickBusTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB0BFC5279E3F1B004695E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB0BFA6279E3F10004695E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB0BFAD279E3F10004695E2;
+			remoteInfo = "Challenge-ClickBus";
+		};
+		3CB0BFCF279E3F1C004695E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB0BFA6279E3F10004695E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB0BFAD279E3F10004695E2;
+			remoteInfo = "Challenge-ClickBus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB0BFAE279E3F10004695E2 /* Challenge-ClickBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-ClickBus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CB0BFB5279E3F10004695E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CB0BFB8279E3F10004695E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB0BFBD279E3F1B004695E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB0BFBF279E3F1B004695E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB0BFC4279E3F1B004695E2 /* Challenge-ClickBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge-ClickBusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB0BFC8279E3F1C004695E2 /* Challenge_ClickBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_ClickBusTests.swift; sourceTree = "<group>"; };
+		3CB0BFCE279E3F1C004695E2 /* Challenge-ClickBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge-ClickBusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB0BFD2279E3F1C004695E2 /* Challenge_ClickBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_ClickBusUITests.swift; sourceTree = "<group>"; };
+		3CB0BFD4279E3F1C004695E2 /* Challenge_ClickBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_ClickBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CB0BFE3279E3F7D004695E2 /* RequestMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMovie.swift; sourceTree = "<group>"; };
+		3CB0BFE6279E4051004695E2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3CB0BFE8279E4166004695E2 /* DiscoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModel.swift; sourceTree = "<group>"; };
+		3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovie.swift; sourceTree = "<group>"; };
+		5C3BE24C5F426EB17066EFC4 /* Pods-Challenge-ClickBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus.release.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus.release.xcconfig"; sourceTree = "<group>"; };
+		5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AB3AE9451F97D1F072E8B7 /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		764F17370E0B47173485635F /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus-Challenge-ClickBusUITests.release.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0D6C506557200D26A0DCA26 /* Pods-Challenge-ClickBusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBusTests.debug.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBusTests/Pods-Challenge-ClickBusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A499AAFF4846208E721D38F4 /* Pods-Challenge-ClickBusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBusTests.release.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBusTests/Pods-Challenge-ClickBusTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE91155B91F3BA0F9FDA64CE /* Pods_Challenge_ClickBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_ClickBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD647FD2916045D28BB57F1D /* Pods-Challenge-ClickBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus.debug.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus.debug.xcconfig"; sourceTree = "<group>"; };
+		FEEEB922A74621254ED1735E /* Pods_Challenge_ClickBusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_ClickBusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB0BFAB279E3F10004695E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496B4DD4A70A11BC872FADAC /* Pods_Challenge_ClickBus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFC1279E3F1B004695E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532B9AD2A52DF1FF7BBBC12A /* Pods_Challenge_ClickBusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFCB279E3F1C004695E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8FD6602262DA59CD33B0D5 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F52F1B3D7290D004A3265DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD647FD2916045D28BB57F1D /* Pods-Challenge-ClickBus.debug.xcconfig */,
+				5C3BE24C5F426EB17066EFC4 /* Pods-Challenge-ClickBus.release.xcconfig */,
+				71AB3AE9451F97D1F072E8B7 /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig */,
+				764F17370E0B47173485635F /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.release.xcconfig */,
+				A0D6C506557200D26A0DCA26 /* Pods-Challenge-ClickBusTests.debug.xcconfig */,
+				A499AAFF4846208E721D38F4 /* Pods-Challenge-ClickBusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3CB0BFA5279E3F10004695E2 = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFB0279E3F10004695E2 /* Challenge-ClickBus */,
+				3CB0BFC7279E3F1C004695E2 /* Challenge-ClickBusTests */,
+				3CB0BFD1279E3F1C004695E2 /* Challenge-ClickBusUITests */,
+				3CB0BFAF279E3F10004695E2 /* Products */,
+				2F52F1B3D7290D004A3265DA /* Pods */,
+				647F067DEBBD5D6E23FC5636 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB0BFAF279E3F10004695E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFAE279E3F10004695E2 /* Challenge-ClickBus.app */,
+				3CB0BFC4279E3F1B004695E2 /* Challenge-ClickBusTests.xctest */,
+				3CB0BFCE279E3F1C004695E2 /* Challenge-ClickBusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB0BFB0279E3F10004695E2 /* Challenge-ClickBus */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFEA279E4192004695E2 /* Model */,
+				3CB0BFE5279E401D004695E2 /* Request */,
+				3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */,
+				3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */,
+				3CB0BFB5279E3F10004695E2 /* ViewController.swift */,
+				3CB0BFB7279E3F10004695E2 /* Main.storyboard */,
+				3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */,
+				3CB0BFBC279E3F1B004695E2 /* LaunchScreen.storyboard */,
+				3CB0BFBF279E3F1B004695E2 /* Info.plist */,
+			);
+			path = "Challenge-ClickBus";
+			sourceTree = "<group>";
+		};
+		3CB0BFC7279E3F1C004695E2 /* Challenge-ClickBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFC8279E3F1C004695E2 /* Challenge_ClickBusTests.swift */,
+			);
+			path = "Challenge-ClickBusTests";
+			sourceTree = "<group>";
+		};
+		3CB0BFD1279E3F1C004695E2 /* Challenge-ClickBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFD2279E3F1C004695E2 /* Challenge_ClickBusUITests.swift */,
+				3CB0BFD4279E3F1C004695E2 /* Challenge_ClickBusUITestsLaunchTests.swift */,
+			);
+			path = "Challenge-ClickBusUITests";
+			sourceTree = "<group>";
+		};
+		3CB0BFE5279E401D004695E2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFE3279E3F7D004695E2 /* RequestMovie.swift */,
+				3CB0BFE6279E4051004695E2 /* Constant.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3CB0BFEA279E4192004695E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFE8279E4166004695E2 /* DiscoverModel.swift */,
+				3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		647F067DEBBD5D6E23FC5636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE91155B91F3BA0F9FDA64CE /* Pods_Challenge_ClickBus.framework */,
+				5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */,
+				FEEEB922A74621254ED1735E /* Pods_Challenge_ClickBusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB0BFAD279E3F10004695E2 /* Challenge-ClickBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB0BFD8279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBus" */;
+			buildPhases = (
+				940C05CFAC90D5C1DE4E59A6 /* [CP] Check Pods Manifest.lock */,
+				3CB0BFAA279E3F10004695E2 /* Sources */,
+				3CB0BFAB279E3F10004695E2 /* Frameworks */,
+				3CB0BFAC279E3F10004695E2 /* Resources */,
+				3F68BD9DA18174E5D9F89184 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challenge-ClickBus";
+			productName = "Challenge-ClickBus";
+			productReference = 3CB0BFAE279E3F10004695E2 /* Challenge-ClickBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB0BFC3279E3F1B004695E2 /* Challenge-ClickBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB0BFDB279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBusTests" */;
+			buildPhases = (
+				32B6E4BB23AE60E54FABA9DF /* [CP] Check Pods Manifest.lock */,
+				3CB0BFC0279E3F1B004695E2 /* Sources */,
+				3CB0BFC1279E3F1B004695E2 /* Frameworks */,
+				3CB0BFC2279E3F1B004695E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB0BFC6279E3F1B004695E2 /* PBXTargetDependency */,
+			);
+			name = "Challenge-ClickBusTests";
+			productName = "Challenge-ClickBusTests";
+			productReference = 3CB0BFC4279E3F1B004695E2 /* Challenge-ClickBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB0BFCD279E3F1C004695E2 /* Challenge-ClickBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB0BFDE279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBusUITests" */;
+			buildPhases = (
+				BAA55FDF854F4EC7DD0C2E96 /* [CP] Check Pods Manifest.lock */,
+				3CB0BFCA279E3F1C004695E2 /* Sources */,
+				3CB0BFCB279E3F1C004695E2 /* Frameworks */,
+				3CB0BFCC279E3F1C004695E2 /* Resources */,
+				BABAF851187508A0B7EE58BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB0BFD0279E3F1C004695E2 /* PBXTargetDependency */,
+			);
+			name = "Challenge-ClickBusUITests";
+			productName = "Challenge-ClickBusUITests";
+			productReference = 3CB0BFCE279E3F1C004695E2 /* Challenge-ClickBusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB0BFA6279E3F10004695E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3CB0BFAD279E3F10004695E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3CB0BFC3279E3F1B004695E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3CB0BFAD279E3F10004695E2;
+					};
+					3CB0BFCD279E3F1C004695E2 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3CB0BFAD279E3F10004695E2;
+					};
+				};
+			};
+			buildConfigurationList = 3CB0BFA9279E3F10004695E2 /* Build configuration list for PBXProject "Challenge-ClickBus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB0BFA5279E3F10004695E2;
+			productRefGroup = 3CB0BFAF279E3F10004695E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB0BFAD279E3F10004695E2 /* Challenge-ClickBus */,
+				3CB0BFC3279E3F1B004695E2 /* Challenge-ClickBusTests */,
+				3CB0BFCD279E3F1C004695E2 /* Challenge-ClickBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB0BFAC279E3F10004695E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB0BFBE279E3F1B004695E2 /* LaunchScreen.storyboard in Resources */,
+				3CB0BFBB279E3F1B004695E2 /* Assets.xcassets in Resources */,
+				3CB0BFB9279E3F10004695E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFC2279E3F1B004695E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFCC279E3F1C004695E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32B6E4BB23AE60E54FABA9DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Challenge-ClickBusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F68BD9DA18174E5D9F89184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940C05CFAC90D5C1DE4E59A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Challenge-ClickBus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA55FDF854F4EC7DD0C2E96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Challenge-ClickBus-Challenge-ClickBusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABAF851187508A0B7EE58BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB0BFAA279E3F10004695E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB0BFE9279E4166004695E2 /* DiscoverModel.swift in Sources */,
+				3CB0BFB6279E3F10004695E2 /* ViewController.swift in Sources */,
+				3CB0BFB2279E3F10004695E2 /* AppDelegate.swift in Sources */,
+				3CB0BFE7279E4051004695E2 /* Constant.swift in Sources */,
+				3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */,
+				3CB0BFE4279E3F7D004695E2 /* RequestMovie.swift in Sources */,
+				3CB0BFB4279E3F10004695E2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFC0279E3F1B004695E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB0BFC9279E3F1C004695E2 /* Challenge_ClickBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB0BFCA279E3F1C004695E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB0BFD5279E3F1C004695E2 /* Challenge_ClickBusUITestsLaunchTests.swift in Sources */,
+				3CB0BFD3279E3F1C004695E2 /* Challenge_ClickBusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB0BFC6279E3F1B004695E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB0BFAD279E3F10004695E2 /* Challenge-ClickBus */;
+			targetProxy = 3CB0BFC5279E3F1B004695E2 /* PBXContainerItemProxy */;
+		};
+		3CB0BFD0279E3F1C004695E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB0BFAD279E3F10004695E2 /* Challenge-ClickBus */;
+			targetProxy = 3CB0BFCF279E3F1C004695E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CB0BFB7279E3F10004695E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB0BFB8279E3F10004695E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB0BFBC279E3F1B004695E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB0BFBD279E3F1B004695E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB0BFD6279E3F1C004695E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB0BFD7279E3F1C004695E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB0BFD9279E3F1C004695E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD647FD2916045D28BB57F1D /* Pods-Challenge-ClickBus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Challenge-ClickBus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB0BFDA279E3F1C004695E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3BE24C5F426EB17066EFC4 /* Pods-Challenge-ClickBus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Challenge-ClickBus/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CB0BFDC279E3F1C004695E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D6C506557200D26A0DCA26 /* Pods-Challenge-ClickBusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge-ClickBus.app/Challenge-ClickBus";
+			};
+			name = Debug;
+		};
+		3CB0BFDD279E3F1C004695E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A499AAFF4846208E721D38F4 /* Pods-Challenge-ClickBusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Challenge-ClickBus.app/Challenge-ClickBus";
+			};
+			name = Release;
+		};
+		3CB0BFDF279E3F1C004695E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AB3AE9451F97D1F072E8B7 /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Challenge-ClickBus";
+			};
+			name = Debug;
+		};
+		3CB0BFE0279E3F1C004695E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764F17370E0B47173485635F /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.Challenge-ClickBusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Challenge-ClickBus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB0BFA9279E3F10004695E2 /* Build configuration list for PBXProject "Challenge-ClickBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB0BFD6279E3F1C004695E2 /* Debug */,
+				3CB0BFD7279E3F1C004695E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB0BFD8279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB0BFD9279E3F1C004695E2 /* Debug */,
+				3CB0BFDA279E3F1C004695E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB0BFDB279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB0BFDC279E3F1C004695E2 /* Debug */,
+				3CB0BFDD279E3F1C004695E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB0BFDE279E3F1C004695E2 /* Build configuration list for PBXNativeTarget "Challenge-ClickBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB0BFDF279E3F1C004695E2 /* Debug */,
+				3CB0BFE0279E3F1C004695E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB0BFA6279E3F10004695E2 /* Project object */;
+}

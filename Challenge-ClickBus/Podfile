@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Challenge-ClickBus' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Challenge-ClickBus
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  target 'Challenge-ClickBusTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Challenge-ClickBusUITests' do
+    # Pods for testing
+  end
+
+end
