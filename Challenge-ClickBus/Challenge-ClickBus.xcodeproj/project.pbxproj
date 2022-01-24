@@ -10,7 +10,6 @@
 		0D8FD6602262DA59CD33B0D5 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */; };
 		3CB0BFB2279E3F10004695E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */; };
 		3CB0BFB4279E3F10004695E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */; };
-		3CB0BFB6279E3F10004695E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB5279E3F10004695E2 /* ViewController.swift */; };
 		3CB0BFB9279E3F10004695E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFB7279E3F10004695E2 /* Main.storyboard */; };
 		3CB0BFBB279E3F1B004695E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */; };
 		3CB0BFBE279E3F1B004695E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFBC279E3F1B004695E2 /* LaunchScreen.storyboard */; };
@@ -23,6 +22,9 @@
 		3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */; };
 		3CB0BFEE279E456C004695E2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFED279E456C004695E2 /* ListViewController.swift */; };
 		3CB0BFF1279E45CA004695E2 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFF0279E45CA004695E2 /* ListController.swift */; };
+		3CB0BFF4279E4664004695E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFF3279E4664004695E2 /* DetailViewController.swift */; };
+		3CB0BFF8279E46BC004695E2 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB0BFF6279E46BC004695E2 /* ListCollectionViewCell.swift */; };
+		3CB0BFF9279E46BC004695E2 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB0BFF7279E46BC004695E2 /* ListCollectionViewCell.xib */; };
 		496B4DD4A70A11BC872FADAC /* Pods_Challenge_ClickBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE91155B91F3BA0F9FDA64CE /* Pods_Challenge_ClickBus.framework */; };
 		532B9AD2A52DF1FF7BBBC12A /* Pods_Challenge_ClickBusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEB922A74621254ED1735E /* Pods_Challenge_ClickBusTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +50,6 @@
 		3CB0BFAE279E3F10004695E2 /* Challenge-ClickBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-ClickBus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CB0BFB5279E3F10004695E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CB0BFB8279E3F10004695E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB0BFBD279E3F1B004695E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		3CB0BFEB279E41A8004695E2 /* DiscoverMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovie.swift; sourceTree = "<group>"; };
 		3CB0BFED279E456C004695E2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		3CB0BFF0279E45CA004695E2 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		3CB0BFF3279E4664004695E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3CB0BFF6279E46BC004695E2 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CB0BFF7279E46BC004695E2 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
 		5C3BE24C5F426EB17066EFC4 /* Pods-Challenge-ClickBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus.release.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus/Pods-Challenge-ClickBus.release.xcconfig"; sourceTree = "<group>"; };
 		5FCB6C18E970A11210231F59 /* Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Challenge_ClickBus_Challenge_ClickBusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AB3AE9451F97D1F072E8B7 /* Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; path = "Target Support Files/Pods-Challenge-ClickBus-Challenge-ClickBusUITests/Pods-Challenge-ClickBus-Challenge-ClickBusUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,13 +145,12 @@
 		3CB0BFB0279E3F10004695E2 /* Challenge-ClickBus */ = {
 			isa = PBXGroup;
 			children = (
-				3CB0BFEA279E4192004695E2 /* Model */,
 				3CB0BFE5279E401D004695E2 /* Request */,
-				3CB0BFF2279E45DA004695E2 /* Controller */,
 				3CB0BFEF279E458F004695E2 /* View */,
+				3CB0BFF2279E45DA004695E2 /* Controller */,
+				3CB0BFEA279E4192004695E2 /* Model */,
 				3CB0BFB1279E3F10004695E2 /* AppDelegate.swift */,
 				3CB0BFB3279E3F10004695E2 /* SceneDelegate.swift */,
-				3CB0BFB5279E3F10004695E2 /* ViewController.swift */,
 				3CB0BFB7279E3F10004695E2 /* Main.storyboard */,
 				3CB0BFBA279E3F1B004695E2 /* Assets.xcassets */,
 				3CB0BFBC279E3F1B004695E2 /* LaunchScreen.storyboard */,
@@ -194,7 +197,9 @@
 		3CB0BFEF279E458F004695E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3CB0BFF5279E4685004695E2 /* Cell */,
 				3CB0BFED279E456C004695E2 /* ListViewController.swift */,
+				3CB0BFF3279E4664004695E2 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +210,15 @@
 				3CB0BFF0279E45CA004695E2 /* ListController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CB0BFF5279E4685004695E2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3CB0BFF6279E46BC004695E2 /* ListCollectionViewCell.swift */,
+				3CB0BFF7279E46BC004695E2 /* ListCollectionViewCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		647F067DEBBD5D6E23FC5636 /* Frameworks */ = {
@@ -328,6 +342,7 @@
 			files = (
 				3CB0BFBE279E3F1B004695E2 /* LaunchScreen.storyboard in Resources */,
 				3CB0BFBB279E3F1B004695E2 /* Assets.xcassets in Resources */,
+				3CB0BFF9279E46BC004695E2 /* ListCollectionViewCell.xib in Resources */,
 				3CB0BFB9279E3F10004695E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,13 +471,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB0BFF8279E46BC004695E2 /* ListCollectionViewCell.swift in Sources */,
 				3CB0BFE9279E4166004695E2 /* DiscoverModel.swift in Sources */,
-				3CB0BFB6279E3F10004695E2 /* ViewController.swift in Sources */,
 				3CB0BFF1279E45CA004695E2 /* ListController.swift in Sources */,
 				3CB0BFB2279E3F10004695E2 /* AppDelegate.swift in Sources */,
 				3CB0BFE7279E4051004695E2 /* Constant.swift in Sources */,
 				3CB0BFEC279E41A8004695E2 /* DiscoverMovie.swift in Sources */,
 				3CB0BFE4279E3F7D004695E2 /* RequestMovie.swift in Sources */,
+				3CB0BFF4279E4664004695E2 /* DetailViewController.swift in Sources */,
 				3CB0BFEE279E456C004695E2 /* ListViewController.swift in Sources */,
 				3CB0BFB4279E3F10004695E2 /* SceneDelegate.swift in Sources */,
 			);
