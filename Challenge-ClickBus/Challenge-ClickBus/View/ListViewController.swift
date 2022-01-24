@@ -14,11 +14,15 @@ class ListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupCollection()
+        getListMovie()
+    }
+    
+    func setupCollection() {
         listCollection.delegate = self
         listCollection.dataSource = self
         self.listCollection.register(UINib(nibName: "ListCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ListCollectionViewCell")
-        
-        getListMovie()
     }
     
     func getListMovie () {

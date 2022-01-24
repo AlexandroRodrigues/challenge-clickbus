@@ -13,7 +13,7 @@ class ListController: NSObject {
     var controller: DiscoverModel?
     
     func getList(completion: @escaping (Bool) -> Void) {
-        request.alamofireMovie { (model, sucess) in
+        request.requestMovie { (model, sucess) in
             if sucess {
                 self.controller = model
                 completion(true)
@@ -23,7 +23,7 @@ class ListController: NSObject {
         }
     }
     
-    func numberOfRowsInSection () -> Int{
+    func numberOfRowsInSection() -> Int {
         return controller?.results?.count ?? 0
     }
     
